@@ -31,6 +31,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   font-family: "Bai Jamjuree", sans-serif;
   font-size: 18px;
 }
@@ -40,14 +41,13 @@ body {
   display: flex;
   flex-direction: column;
   width: 375px;
-  height: 5205px;
+  /* height: 5205px; */
   text-align: center;
-  justify-content: space-evenly;
 }
 
 /*SECTIONS*/
 section {
-  width: 312px;
+  width: 315px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -92,7 +92,7 @@ h1 {
 }
 
 button {
-  width: 312px;
+  width: 315px;
   height: 56px;
   border-radius: 50px;
   color: white;
@@ -118,21 +118,17 @@ button {
   height: 1130px;
 }
 
-.clipboard {
-  height: 600px;
+h2 {
+  margin-top: 168px;
 }
 
-.workflow {
-  height: 1020px;
-}
-
-.customers {
-  height: 575px;
+h3 {
+  margin-top: 68px;
 }
 
 .screen,
 .devices {
-  width: 312px;
+  width: 315px;
   margin-top: 68px;
 }
 
@@ -140,24 +136,30 @@ button {
   margin-bottom: 168px;
 }
 
-.feature,
-.workflowComp {
-  margin-top: 63px;
+/*CLIPBOARD SECTION*/
+.clipboard {
+  height: 600px;
 }
 
+/*WORKFLOW SECTION*/
 .workflow {
-  margin-bottom: 168px;
+  height: 1020px;
 }
 
-.icon,
-.customerLogo {
-  margin-bottom: 63px;
+/*CUSTOMERS SECTION*/
+.customers {
+  height: 575px;
 }
 
+/*DOWNLOAD SECTION*/
+.download {
+  height: 710px;
+}
+
+/*FOOTER SECTION*/
 .footer {
   height: 500px;
   font-size: 16px;
-  background-color: hsl(201, 11%, 66%, 20%);
 }
 
 .footer a {
@@ -167,14 +169,3 @@ button {
 .logoNav {
   width: 50px;
 }
-
-.download {
-  margin-top: 5px;
-}
-
-/*INTRO SECTION*/
-/*INTRO SECTION*/
-/*INTRO SECTION*/
-/*INTRO SECTION*/
-/*INTRO SECTION*/
-/*INTRO SECTION*/
