@@ -33,7 +33,6 @@ body {
   justify-content: center;
   font-family: "Bai Jamjuree", sans-serif;
   font-size: 18px;
-  background-color: hsl(201, 11%, 66%);
 }
 
 /*CONTAINER*/
@@ -42,5 +41,140 @@ body {
   flex-direction: column;
   width: 375px;
   height: 5205px;
-  background-color: white;
+  text-align: center;
+  justify-content: space-evenly;
 }
+
+/*SECTIONS*/
+section {
+  width: 312px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 30px;
+}
+
+/*INTRO SECTION*/
+.intro {
+  height: 670px;
+}
+
+.logo {
+  width: 125px;
+  margin: 120px 0 60px 0;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.heavy {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 31px;
+}
+
+.para {
+  color: hsl(201, 11%, 66%);
+}
+
+.downloads {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 168px;
+  margin-top: 52px;
+}
+
+button {
+  width: 312px;
+  height: 56px;
+  border-radius: 50px;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  border-left: 2px solid hsl(0, 0%, 100%, 10%);
+  border-top: 2px solid hsl(0, 0%, 100%, 10%);
+  border-right: 2px solid hsl(0, 0%, 100%, 20%);
+  border-bottom: 2px solid hsl(0, 0%, 100%, 20%);
+}
+
+.ios {
+  background-color: hsl(171, 66%, 44%);
+  margin-bottom: 24px;
+}
+
+.mac {
+  background-color: hsl(233, 100%, 69%);
+}
+
+/*TRACK SECTION*/
+.track {
+  height: 1130px;
+}
+
+.clipboard {
+  height: 600px;
+}
+
+.workflow {
+  height: 1020px;
+}
+
+.customers {
+  height: 575px;
+}
+
+.screen,
+.devices {
+  width: 312px;
+  margin-top: 68px;
+}
+
+.features {
+  margin-bottom: 168px;
+}
+
+.feature,
+.workflowComp {
+  margin-top: 63px;
+}
+
+.workflow {
+  margin-bottom: 168px;
+}
+
+.icon,
+.customerLogo {
+  margin-bottom: 63px;
+}
+
+.footer {
+  height: 500px;
+  font-size: 16px;
+  background-color: hsl(201, 11%, 66%, 20%);
+}
+
+.footer a {
+  color: hsl(210, 10%, 33%);
+}
+
+.logoNav {
+  width: 50px;
+}
+
+.download {
+  margin-top: 5px;
+}
+
+/*INTRO SECTION*/
+/*INTRO SECTION*/
+/*INTRO SECTION*/
+/*INTRO SECTION*/
+/*INTRO SECTION*/
+/*INTRO SECTION*/
