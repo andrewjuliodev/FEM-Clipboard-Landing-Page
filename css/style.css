@@ -22,10 +22,21 @@ html {
 
 /*BODY*/
 body {
+  margin: 100vw;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   font-family: "Bai Jamjuree", sans-serif;
   font-size: 18px;
+  background-color: hsl(201, 11%, 66%);
+}
+
+/*CONTAINER*/
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+  height: 5205px;
+  background-color: white;
 }
