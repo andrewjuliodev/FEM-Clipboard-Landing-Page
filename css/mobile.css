@@ -27,7 +27,7 @@ html {
 /*BODY*/
 body {
   width: 100vw;
-  height: 3808px;
+  height: 5205px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -40,20 +40,17 @@ body {
 
 /*CONTAINER*/
 .container {
-  width: 1440px;
-  height: 3808px;
-  background-size: contain;
+  width: 375px;
+  height: 5205px;
   background-color: white;
   background-image: url("/images/bg-header-mobile.png");
   background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
 }
 
 /*SECTIONS*/
 .section {
-  width: 1440px;
-  margin: 0;
+  margin: 0 30px;
+  text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -61,34 +58,55 @@ body {
 
 /*LOGO*/
 .logo {
-  width: 130px;
-  height: 130px;
-  margin-top: 130px;
-  margin-bottom: 65px;
+  width: 125px;
+  height: 120px;
+  margin-top: 125px;
+  margin-bottom: 70px;
 }
 
 /*HEADINGS*/
+.heavy {
+  font-weight: 600;
+}
+
 h1 {
-  font-size: 48px;
+  font-size: 31px;
+  margin-bottom: 24px;
 }
 
 h2 {
-  font-size: 36px;
+  margin-bottom: 25px;
 }
 
 h3 {
-  font-size: 26px;
+  margin-bottom: 20px;
 }
 
-/*DOWNLOADS*/
-.downloads {
-  display: flex;
-  flex-direction: row;
-  margin-top: 50px;
+h3 {
+  font-size: 24px;
+  margin-top: 60px;
 }
 
+/*PARAGRAPHS*/
+.para,
+.icon {
+  margin-bottom: 50px;
+}
+
+.para {
+  color: hsl(201, 11%, 66%);
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+}
+
+.track p {
+  margin-bottom: 0;
+}
+
+/*BUTTONS*/
 button {
-  width: 225px;
+  width: 315px;
   height: 56px;
   border-radius: 50px;
   color: white;
@@ -106,102 +124,54 @@ button:hover {
 }
 
 .ios {
-  margin-left: 475px;
   background-color: hsl(171, 66%, 44%);
+  margin-bottom: 24px;
 }
 
 .mac {
-  margin-left: 20px;
   background-color: hsl(233, 100%, 69%);
-}
-
-/*PARAGRAPHS*/
-.para {
-  width: 720px;
-  margin-left: 360px;
-  font-size: 18px;
-  margin-bottom: 50px;
-}
-
-/*TRACKS*/
-.tracks {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.split {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.features {
-  flex: 1;
-  margin-left: 140px;
-  text-align: left;
-}
-
-.features p {
-  width: 300px;
-  margin: 0;
+  margin-bottom: 165px;
 }
 
 /*IMAGES*/
 .screen {
-  flex: 1;
-  width: 105%;
-  margin-left: -40px;
+  width: 315px;
+  margin-top: 60px;
 }
 
 .devices {
-  width: 100%;
-}
-
-.icon {
-  width: 50px;
-  height: 50px;
-  object-fit: contain;
+  width: 350px;
+  margin-left: -18px;
 }
 
 /*CLIPBOARD*/
+.clipboard {
+  margin-top: 195px;
+}
 
 /*WORKFLOW*/
 .workflow {
-  display: flex;
-  flex-direction: column;
-}
-
-.workflowComps,
-.customers {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-
-.workflowComp p {
-  width: 400px;
-  margin-left: 0px;
+  margin-top: 110px;
 }
 
 /*CUSTOMERS*/
 .customers {
-  margin-top: 170px;
+  margin: 60px 115px 0 115px;
 }
 
-.customerLogo {
-  object-fit: contain;
+.customers img {
+  margin-bottom: 70px;
 }
 
 /*DOWNLOAD*/
-.download p {
-  margin-left: 360px;
+.download {
+  margin-top: 105px;
 }
 
 /*FOOTER*/
 .footer {
-  width: 1440px;
-  height: 300px;
+  width: 375px;
+  height: 500px;
   background-color: hsl(201, 11%, 66%, 10%);
   justify-content: space-evenly;
   margin: 0;
