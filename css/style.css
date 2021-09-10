@@ -202,6 +202,10 @@ a:hover {
     width: 100vw;
     height: 3808px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .container {
     width: 1440px;
@@ -219,11 +223,36 @@ a:hover {
   .downloads {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+  }
+
+  button {
+    height: 70px;
+  }
+
+  .ios {
+    margin-left: 400px;
+  }
+
+  .mac {
+    margin-left: 20px;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  h3 {
+    font-size: 26px;
   }
 
   .para {
-    width: 300px;
+    width: 720px;
+    margin-left: 360px;
+    font-size: 18px;
   }
 
   .tracks {
@@ -240,14 +269,19 @@ a:hover {
 
   .features {
     flex: 1;
-    margin-left: 100px;
+    margin-left: 140px;
     text-align: left;
+  }
+
+  .features p {
+    width: 300px;
+    margin: 0;
   }
 
   .screen {
     flex: 1;
-    width: 100%;
-    margin-left: -100px;
+    width: 105%;
+    margin-left: -40px;
   }
 
   .devices {
@@ -265,8 +299,27 @@ a:hover {
     flex-direction: row;
     justify-content: space-evenly;
   }
+
+  .customers {
+    margin-top: 170px;
+  }
+
+  .customerLogo {
+    object-fit: contain;
+  }
+
   .workflowComp p {
     width: 400px;
     margin-left: 0px;
+  }
+
+  .download p {
+    margin-left: 360px;
+  }
+
+  .icon {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
   }
 }
