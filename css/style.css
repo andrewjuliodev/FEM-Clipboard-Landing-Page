@@ -36,3 +36,92 @@ body {
   font-size: 18px;
   background-color: rgb(132, 207, 197);
 }
+
+/*CONTAINER*/
+.container {
+  width: 375px;
+  height: 5205px;
+  background-color: white;
+}
+
+/*SECTIONS*/
+.section {
+  margin: 0 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/*LOGO*/
+.logo {
+  width: 125px;
+  height: 120px;
+  margin-top: 125px;
+  margin-bottom: 70px;
+}
+
+/*HEADINGS*/
+.heavy {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 31px;
+  margin-bottom: 24px;
+}
+
+h2,
+h3 {
+  margin-bottom: 24px;
+}
+
+h3 {
+  margin-top: 60px;
+}
+
+/*PARAGRAPHS*/
+.para,
+.icon {
+  margin-bottom: 50px;
+}
+
+.track p {
+  margin-bottom: 0;
+}
+
+/*BUTTONS*/
+button {
+  width: 315px;
+  height: 56px;
+  border-radius: 50px;
+  color: white;
+  border-left: 2px solid hsl(0, 0%, 100%, 20%);
+  border-top: 2px solid hsl(0, 0%, 100%, 20%);
+  border-right: 2px solid hsl(0, 0%, 100%, 30%);
+  border-bottom: 2px solid hsl(0, 0%, 100%, 30%);
+}
+
+.ios {
+  background-color: hsl(171, 66%, 44%);
+  margin-bottom: 24px;
+}
+
+.mac {
+  background-color: hsl(233, 100%, 69%);
+  margin-bottom: 165px;
+}
+
+/*IMAGES*/
+.screen {
+  width: 315px;
+}
+
+.devices {
+  width: 350px;
+  margin-left: -18px;
+}
+
+.clipboard {
+  margin-top: 195px;
+}
