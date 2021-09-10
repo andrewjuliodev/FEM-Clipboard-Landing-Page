@@ -26,8 +26,8 @@ html {
 
 /*BODY*/
 body {
-  margin: 100vw;
-  height: 100vh;
+  width: 100vw;
+  height: 5205px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -41,7 +41,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 375px;
-  /* height: 5205px; */
+  height: 5205px;
   text-align: center;
 }
 
@@ -144,6 +144,9 @@ h3 {
 /*WORKFLOW SECTION*/
 .workflow {
   height: 1020px;
+}
+
+.icon {
 }
 
 /*CUSTOMERS SECTION*/
