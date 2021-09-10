@@ -14,10 +14,10 @@ button {
   border: 0;
 }
 
-/*WIREFRAMES*/
+/*WIREFRAMES
 .frame {
   border: 1px dotted red;
-}
+}*/
 
 /*SMOOTH SCROLLING*/
 html {
@@ -34,6 +34,7 @@ body {
   align-items: center;
   font-family: "Bai Jamjuree", sans-serif;
   font-size: 18px;
+  font-weight: 600;
   background-color: rgb(132, 207, 197);
 }
 
@@ -42,6 +43,8 @@ body {
   width: 375px;
   height: 5205px;
   background-color: white;
+  background-image: url("/images/bg-header-mobile.png");
+  background-repeat: no-repeat;
 }
 
 /*SECTIONS*/
@@ -63,7 +66,7 @@ body {
 
 /*HEADINGS*/
 .heavy {
-  font-weight: 700;
+  font-weight: 600;
 }
 
 h1 {
@@ -71,12 +74,16 @@ h1 {
   margin-bottom: 24px;
 }
 
-h2,
-h3 {
-  margin-bottom: 24px;
+h2 {
+  margin-bottom: 25px;
 }
 
 h3 {
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 24px;
   margin-top: 60px;
 }
 
@@ -84,6 +91,13 @@ h3 {
 .para,
 .icon {
   margin-bottom: 50px;
+}
+
+.para {
+  color: hsl(201, 11%, 66%);
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
 }
 
 .track p {
@@ -96,10 +110,17 @@ button {
   height: 56px;
   border-radius: 50px;
   color: white;
-  border-left: 2px solid hsl(0, 0%, 100%, 20%);
-  border-top: 2px solid hsl(0, 0%, 100%, 20%);
-  border-right: 2px solid hsl(0, 0%, 100%, 30%);
-  border-bottom: 2px solid hsl(0, 0%, 100%, 30%);
+  border-left: 3px solid hsl(0, 0%, 0%, 10%);
+  border-top: 3px solid hsl(0, 0%, 0%, 10%);
+  border-right: 3px solid hsl(0, 0%, 0%, 20%);
+  border-bottom: 3px solid hsl(0, 0%, 0%, 20%);
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+button:hover {
+  opacity: 70%;
 }
 
 .ios {
@@ -115,6 +136,7 @@ button {
 /*IMAGES*/
 .screen {
   width: 315px;
+  margin-top: 60px;
 }
 
 .devices {
@@ -122,6 +144,53 @@ button {
   margin-left: -18px;
 }
 
+/*CLIPBOARD*/
 .clipboard {
   margin-top: 195px;
+}
+
+/*WORKFLOW*/
+.workflow {
+  margin-top: 110px;
+}
+
+/*CUSTOMERS*/
+.customers {
+  margin: 60px 115px 0 115px;
+}
+
+.customers img {
+  margin-bottom: 70px;
+}
+
+/*DOWNLOAD*/
+.download {
+  margin-top: 105px;
+}
+
+/*FOOTER*/
+.footer {
+  width: 375px;
+  height: 500px;
+  background-color: hsl(201, 11%, 66%, 10%);
+  justify-content: space-evenly;
+  margin: 0;
+}
+
+.logoFooter {
+  width: 60px;
+  height: 60px;
+  margin-top: 10px;
+}
+
+.footer a {
+  color: hsl(210, 10%, 33%);
+}
+
+a:hover {
+  color: hsl(171, 66%, 44%);
+}
+
+.social {
+  margin: 0 15px;
 }
